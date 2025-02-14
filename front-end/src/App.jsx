@@ -1,13 +1,12 @@
-import React from 'react'
-import Navbar from './components/navBar/Navbar'
-import TestAPI from './components/API/TestAPI'
+import Navbar from "./components/navBar/Navbar";
+import TestAPI from "./components/API/TestAPI";
 const App = () => {
   return (
     <div>
-        <Navbar/>
-        <TestAPI/>
+      <Navbar />
+      <TestAPI />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
