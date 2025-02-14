@@ -1,0 +1,21 @@
+nav{
+    width: 100%;
+    background: #333;
+    color: #ffff;
+    padding: 4px 0; /*small 4 space added in top and bottom*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* logo will be left side right is the item*/ 
+    position: fixed;
+    z-index: 10;
+
+}
+.logo{
+    width: 80px;
+}
+.container ul li{
+    display: inline-block;
+    list-style: none; /* removing the bulleted or number form the list items*/
+    margin: 0px 10px; /*dont put 4 size in here like 0px 0px 0px 0px no favorable*/
+    font-size: 20px;
+}
